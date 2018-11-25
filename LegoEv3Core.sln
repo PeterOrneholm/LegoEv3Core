@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{8388F27C-4D9E-4836-A568-7E621C47A555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1E46072-247C-48C6-B6C9-AA71CCA877CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegoEv3Core", "src\LegoEv3Core\LegoEv3Core.csproj", "{84C6545E-6F70-4910-8D0D-62E1D5BEA890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoEv3Core.Samples.Wpf", "samples\LegoEv3Core.Samples.Wpf\LegoEv3Core.Samples.Wpf.csproj", "{8E0D716B-9553-46AF-9DC0-40D28451D2C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegoEv3Core.Samples.Console", "samples\LegoEv3Core.Samples.Console\LegoEv3Core.Samples.Console.csproj", "{3A279F7A-8F99-4C00-97E5-4E3D2A30D6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoEv3Core.Samples.WpfMonitor", "samples\LegoEv3Core.Samples.WpfMonitor\LegoEv3Core.Samples.WpfMonitor.csproj", "{0B140421-4421-4673-972F-7FFB6268F0DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C5C893C-6D32-4420-8CEA-608DC40E0CB4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C6545E-6F70-4910-8D0D-62E1D5BEA890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C6545E-6F70-4910-8D0D-62E1D5BEA890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C6545E-6F70-4910-8D0D-62E1D5BEA890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C6545E-6F70-4910-8D0D-62E1D5BEA890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0D716B-9553-46AF-9DC0-40D28451D2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0D716B-9553-46AF-9DC0-40D28451D2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0D716B-9553-46AF-9DC0-40D28451D2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0D716B-9553-46AF-9DC0-40D28451D2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A279F7A-8F99-4C00-97E5-4E3D2A30D6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A279F7A-8F99-4C00-97E5-4E3D2A30D6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A279F7A-8F99-4C00-97E5-4E3D2A30D6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A279F7A-8F99-4C00-97E5-4E3D2A30D6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B140421-4421-4673-972F-7FFB6268F0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B140421-4421-4673-972F-7FFB6268F0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B140421-4421-4673-972F-7FFB6268F0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B140421-4421-4673-972F-7FFB6268F0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84C6545E-6F70-4910-8D0D-62E1D5BEA890} = {D1E46072-247C-48C6-B6C9-AA71CCA877CD}
+		{8E0D716B-9553-46AF-9DC0-40D28451D2C9} = {8388F27C-4D9E-4836-A568-7E621C47A555}
+		{3A279F7A-8F99-4C00-97E5-4E3D2A30D6C9} = {8388F27C-4D9E-4836-A568-7E621C47A555}
+		{0B140421-4421-4673-972F-7FFB6268F0DC} = {8388F27C-4D9E-4836-A568-7E621C47A555}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09F91CDC-8B37-4F52-A7F8-A8990CFCB50C}
+	EndGlobalSection
+EndGlobal
